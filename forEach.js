@@ -49,7 +49,6 @@ function doubleValues(arr) {
     return obj;
   }
   
-  // map
   
   function doubleValuesWithMap(arr) {
     return arr.map(function(val) {
@@ -75,7 +74,6 @@ function doubleValues(arr) {
     });
   }
   
-  // filter
   
   function filterByValue(arr, key) {
     return arr.filter(function(val) {
